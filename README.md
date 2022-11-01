@@ -11,7 +11,8 @@ for measuring speed and change rate as it uses the quadrature outputs from the e
 
 
 Purpose of this was to prove that our early swerve drive could read absolute wheel direction angle.
-Encoder used here was the CTRE SRX Magnetic encoder, b
+Encoder used here was the CTRE SRX Magnetic encoder, as we have many of those, and when
+the project started, CANCoders were not available. 
 
 You could plug in more encoders and print them all out to the SmartDashboard.
 
