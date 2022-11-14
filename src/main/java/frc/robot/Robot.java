@@ -10,6 +10,7 @@ package frc.robot;
 import edu.wpi.first.wpilibj.DutyCycleEncoder;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import edu.wpi.first.wpilibj.Joystick;
 
 @SuppressWarnings("PMD.SingularField")
 public class Robot extends TimedRobot {

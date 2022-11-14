@@ -2,9 +2,13 @@
 
 Test repo for DutyCycleEncoder encoder type which is native to FRC Robotics WPIlib and used for Swerve drive steering because it allows Absolute angle to be read.  It is also helpful for other things like arm angle measurement.
 
+This code now prints out 4 encoder values and angles in radians. This will help calibrate for swerve drive.
 
 DutyCycleEncoder is an encoder type native to FRC Robotics WPIlib
 DutyCycleEncoder reads an encoders absolute position in angle 0 to 360.
+it's output is a float value from 0.0 to 1.0 and so you multiply it by 2.0 * Math.PI to convert to Angle in Radians.
+Or you could multiply by 360.0 to convert to a degrees angle.
+
 
 Another built in is Encoder type is the FRC type Encoder which is better suited 
 for measuring speed and change rate as it uses the quadrature outputs from the encoder.
